@@ -1,0 +1,72 @@
+.featured{
+    width: 100%;
+    padding:8rem 0;
+    background-color: var(--background);
+    clip-path: polygon(0 0,100% 10%,100% 100%,0% 90%);
+}
+.featured .container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+
+}
+h2{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.featur .left p{
+    margin: 1.5rem 0;
+}
+.featured .left .btn{
+    align-self: flex-start;
+}
+.featured .right{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    padding: 12px  22px ;
+    margin: 0.4rem;
+    width: 170px;
+    height: 170px;
+    border-radius: 25px;
+    border: 1px solid #d38e8e;
+    box-shadow: rgb(0 0 0/12%)8px 8px 24px;
+    text-align: center;
+
+}
+.cointext{
+    font-weight: bolder;
+}
+.card:hover{
+    box-shadow: rgb(0 0 0/40%)8px 8px 24px; ;
+}
+.card .top{
+    display: flex;
+    flex-direction: column;
+}
+.top img{
+    width: 50px;
+    margin: auto;
+    padding: .2rem 0;
+}
+.green{
+    color: green;
+}
+.red{
+    color: red;
+}
+@media screen and (max-width:478px)  {
+    .card{
+        width: 100px;
+        height: 100px;
+        flex-direction: row;
+        width: 100%;
+    }
+    
+}

@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&family=Poppins:ital,wght@0,200;0,300;1,200&display=swap');
+.hero .container{
+ 
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: 4rem auto;
+    align-items: center;
+    padding: 1rem;
+}
+.left{
+    padding: 1rem;
+}
+
+.left::before{
+   
+    content:'';
+    position: absolute;
+    left:0;
+    bottom: 0;
+    border-bottom: 3px solid burlywood;
+    
+}
+
+.hero h1{
+    font-size: 2rem;
+    font-family:'Poppins',sans-serif; ;
+    padding: 0;
+}
+.hero p{
+    font-family:'Fredoka',sans-serif; 
+}
+.hero right{
+    padding: 1rem;
+}
+.hero .img-container{
+    width: 100%;
+    display: flex;
+}
+.hero img{
+    border-radius: 10px;
+    max-width: 80%;
+    margin: auto;
+}
+
+@media screen and (max-width:940px) {
+    .hero .container{
+        grid-template-columns: 1fr;
+        margin: 1rem 0;;
+    }
+    
+}
