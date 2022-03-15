@@ -10,6 +10,7 @@
 }
 .left{
     padding: 1rem;
+    margin: 0;
 }
 
 .left::before{
