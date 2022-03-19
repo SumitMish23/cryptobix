@@ -6,9 +6,21 @@ import './Hero.css';
 import './Footer.jsx';
 import './Footer.css';
 import {NavLink,Link} from 'react-router-dom';
+import { Alert,Snackbar } from '@mui/material';
 import './Navbar.css';
 
+
+
 const Navbar = () => {
+  const[open,setOpen]=useState(false);
+  const handleClicked=()=>{
+   if(open==true){
+     setOpen(false);
+   }
+   else{
+     setOpen(true);
+   }
+  }
   const[click,setclick]=useState(false);
   console.log(typeof click);
   const handleclick=()=>{
@@ -35,8 +47,14 @@ const Navbar = () => {
               </li>
               </ul>
           <div className="btn-group">
-            <button className='btn'>Connect Wallet</button>
+            <button className='btn'   autoHideDuration={6000} onClick={handleClicked}>Connect Wallet</button>
           </div>
+          <Snackbar open={open} >
+          <Alert className='alert' severity='info' sx={{ width: '100%' }}>
+          The feature is in development!
+        </Alert>
+            </Snackbar>;
+          
           <div className="hamburger" onClick={handleclick}>
           {click ? (<FaTimes size={20} style={{color:'#333'}} />): <FaBars size={20} style={{color:"#333"}}/>}
           </div> 

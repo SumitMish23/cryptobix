@@ -12,15 +12,11 @@
     padding: 1rem;
     margin: 0;
 }
+.left:hover{
+    background-color: rgb(241, 230, 230);
+    transition: 0.5s;
+    border-radius: 20px;
 
-.left::before{
-   
-    content:'';
-    position: absolute;
-    left:0;
-    bottom: 0;
-    border-bottom: 3px solid burlywood;
-    
 }
 
 .hero h1{
