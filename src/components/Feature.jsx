@@ -5,6 +5,7 @@ import './Feature.css'
 import BTC from '../assests/bit.jpg';
 import {FiArrowUpRight,FiArrowDown} from 'react-icons/fi'
 import Data from './Data';
+import CoinsItem from './CoinsItem';
 const Feature = () => {
 
 
@@ -32,7 +33,7 @@ const Feature = () => {
             <div className="left">
                 <h2>Explore Top Crypto's Like BitCoin,Etherum and Dopecoin</h2>
                 <p>See All the Available Assets,Cryptocurriencies and NFT's</p>
-                <button className='btn' onClick={fetch}>See More Coins </button>
+                <button className='btn' onClick={ CoinsItem}>See More Coins </button>
             </div>
             {/* Right */}
 

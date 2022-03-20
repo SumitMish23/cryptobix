@@ -1,6 +1,7 @@
 .container{
     max-width: 1140px;
     margin: auto;
+    
 }
 .heading{
    
@@ -43,7 +44,10 @@ justify-content: space-between;
     transition: .3s ease-in-out;
     cursor: pointer;
 }
-
+.coin-row{
+    background-color: aqua;
+    background-image: url('../assests/cryptobg.jpg');
+}
 
 .coin-row img{
     height: 50px;

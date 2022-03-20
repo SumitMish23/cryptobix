@@ -6,7 +6,7 @@ export const Hero = () => {
     <div className='hero' id='hero'>
          <div className="container">
              {/* Left side */}
-             <div className="left">
+             <div className="left-hero">
                  <p>
                      Buy and Sell Crypto 24/7 using your retirement account
 
