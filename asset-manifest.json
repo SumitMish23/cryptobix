@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/cryptobix/static/css/main.061adaa1.css",
+    "main.js": "/cryptobix/static/js/main.10859484.js",
+    "static/media/signup1.png": "/cryptobix/static/media/signup1.a2c09083fbde76e9cac2.png",
+    "static/media/signup.png": "/cryptobix/static/media/signup.66b9eb77caa3ac6d4fe8.png",
+    "static/media/cryptobg.jpg": "/cryptobix/static/media/cryptobg.0dd8a32cbae9fc1ba230.jpg",
+    "index.html": "/cryptobix/index.html",
+    "main.061adaa1.css.map": "/cryptobix/static/css/main.061adaa1.css.map",
+    "main.10859484.js.map": "/cryptobix/static/js/main.10859484.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.061adaa1.css",
+    "static/js/main.10859484.js"
+  ]
+}
