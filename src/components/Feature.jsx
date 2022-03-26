@@ -6,6 +6,12 @@ import BTC from '../assests/bit.jpg';
 import {FiArrowUpRight,FiArrowDown} from 'react-icons/fi'
 import Data from './Data';
 import CoinsItem from './CoinsItem';
+import Coins from '../Coins';
+import {Link} from 'react-router-dom';
+
+
+import { Button } from '@mui/material';
+import CoinPage from '../CoinPage';
 const Feature = () => {
 
 
@@ -22,7 +28,10 @@ const Feature = () => {
         console.log(e);
     })
 },[])
-
+  const clicked=()=>{
+  
+    window.scrollTo(0, 100);
+  }
     
     if(!coins) return null;
    
@@ -33,7 +42,13 @@ const Feature = () => {
             <div className="left">
                 <h2>Explore Top Crypto's Like BitCoin,Etherum and Dopecoin</h2>
                 <p>See All the Available Assets,Cryptocurriencies and NFT's</p>
-                <button className='btn' onClick={ CoinsItem}>See More Coins </button>
+                <Link to='/coins'>
+   
+                <Button  variant="contained" color="info" className='btn'>See More Coins </Button>
+              
+                </Link>
+               
+
             </div>
             {/* Right */}
 

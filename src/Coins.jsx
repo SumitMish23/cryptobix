@@ -4,7 +4,8 @@ import './components/Coinsstyling.css';
 
 
 const Coins = (props) => {
- //console.log(props);
+ 
+ 
      return (
       <>
    

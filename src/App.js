@@ -22,7 +22,7 @@ function App() {
   <Routes>
     
   
-      <Route path='/coins' element={[<Coins/>,<CoinPage/>]}/>
+      <Route  path='/coins' element={[<Coins/>,<CoinPage/>]}/>
       
       <Route path='/wikicoins' element={<WikiCoin/>}>
       <Route path=':coinI' element={<WikiCoin/>}/>
