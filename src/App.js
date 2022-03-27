@@ -1,5 +1,6 @@
 import React from 'react';
 import CoinPage from './CoinPage';
+import { useEffect } from 'react';
 import Data from './components/Data';
 import Feature from './components/Feature';
 import Footer from './components/Footer';
@@ -13,8 +14,15 @@ import CoinsItem from './components/CoinsItem';
 import Coins from './Coins';
 import {Routes,Route} from 'react-router-dom';
 import WikiCoin from './components/WikiCoin';
+import ReactGa from 'react-ga';
 
 function App() {
+  useEffect(() => {
+
+    ReactGa.initialize('G-2GQ62MFQDE')
+    ReactGa.pageview('/')
+  }, [])
+  
   return (
    <>
     
