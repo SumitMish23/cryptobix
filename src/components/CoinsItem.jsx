@@ -1,6 +1,6 @@
 import React from 'react';
 import '../components/Coinsstyling.css';
-import CoinPage from '../CoinPage';
+
 
 const CoinsItem = (props) => {
     console.log(props.nameofcoin);
