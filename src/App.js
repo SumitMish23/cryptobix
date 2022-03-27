@@ -20,7 +20,7 @@ function App() {
   useEffect(() => {
 
     ReactGa.initialize('G-2GQ62MFQDE')
-    ReactGa.pageview('/')
+    ReactGa.pageview('/coins')
   }, [])
   
   return (
