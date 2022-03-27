@@ -39,7 +39,7 @@ html,body
 ::-webkit-scrollbar-thumb {
   border-radius: 5px;
   background-color: var(--primary);
-  -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
+  
 }
 .primary{
   color: var(--primary);
